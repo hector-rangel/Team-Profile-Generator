@@ -1,0 +1,102 @@
+:root {
+    /* --blue: #1717c0; */
+    --white: white;
+    /*--lightblue: #147da7; */
+    --blue: #0000ff;
+    --black: #000000;
+    --red: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:black;
+    background-color: white;
+    text-align: center;
+}
+
+.team-header {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 25px;
+}
+
+/* employee card style */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.employee-card {
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    margin: 10px;
+    width: 25%;
+    background-color: var(--white);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.card-header {
+    color: var(--white);
+    background-color: var(--blue);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 25px;
+}
+
+.card-name {
+    font-size: 27px;
+    padding: 5px;
+}
+
+.card-position {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.oi {
+    padding: 12px;
+    font-size: 15px;
+}
+
+.employee-info {
+    list-style-type: none;
+    text-align:left;
+    margin: 5px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.list-info {
+    padding: 10px;
+    border: 1px solid var(--black);
+}
+
+.id {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.office, .github, .school {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .employee-card {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .employee-card {
+        width: 80%;
+    }
+}
