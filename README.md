@@ -43,4 +43,4 @@ THEN I exit the application, and the HTML is generated
 ## Screen Recording
 [Link to walkthrough](https://drive.google.com/file/d/17aiXW72lZ0DnUnyX7jjoARQwYyxaR8J-/view)
 
-[Screen recordin of application](./Assets/recording.gif)
+![Screen recording of application](./Assets/recording.gif)
